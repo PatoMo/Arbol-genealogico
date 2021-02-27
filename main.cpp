@@ -1,3 +1,20 @@
+/* Universidad de La Frontera
+* Ingeniería Civil Telemática
+*
+* IIE-344 Estructura de Datos y Algoritmos
+*
+* Tarea 2
+*
+* Autor: Patricio Morales Curihuinca (p.morales13@ufromail.cl)
+*
+* Fecha: 27/02/2021
+*
+* Descripción general del programa: Programa que muestra un arbol genealogico por pantalla a través del uso de "Arboles" y luego se implementa un menú que permite interactuar
+con el mismo e incluso poder editarlo.
+*/
+
+
+
 #include <stdio.h>
 #include "arbol.h"
 #include <string.h>
@@ -94,8 +111,10 @@ reEtiqueta(name, persona, Raul);
  
   }
  case 4: printf("4.-La generación a la que pertenece &s es generacion &d",generacion,&numgeneracion );
- case 5: printf("5.-Los antecesores de &s son: &s",nombre);
- case 6: printf("6.-Los familiares con vida son: %d",convida);
+ case 5: printf("5.-Los antecesores de x persona");
+		do{ padre (persona,Raul) } //ir verificando a la persona anterior y mostrar por pantalla, hasta llegar a la raíz
+ case 6: printf("6.-Los familiares con vida son: Tomas,Rafael,Camila,Josefa,Valentina,Felipe,Ignacio,Pedro");
+		
 }
 }
 
